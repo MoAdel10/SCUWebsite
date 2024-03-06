@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" href="./Img/Fci_Logo(1).png" type="image/icon type">
+    <!-- <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Faculty Of Computers and Informations</title>
+
+    <!-- start seo ####################################################################################### -->
+    <meta name="description"
+        content="Welcome to the official website of the Faculty of Computers and Information at Suez Canal University. Explore our academic programs, research initiatives, and cutting-edge facilities. Join us in shaping the future of technology and innovation.">
+    <meta name="keywords" content="Faculty of Computers and Information, Suez Canal University
+    , scu,fci,fcai,fci scu">
+    <meta name="author" content="Suez canal university">
+    <meta name="robots" content="index, follow">
+    <!-- 'index' means allow search engines to index this page, 'follow' means allow search engines to follow links on this page -->
+    <meta name="referrer" content="always">
+    <!-- 'always' ensures that the referring URL is sent even on HTTPS requests -->
+
+    <!-- Open Graph meta tags (for sharing on social media) -->
+    <meta property="og:title" content="Faculty Of Computers and Informations">
+    <meta property="og:description"
+        content="Welcome to the official website of the Faculty of Computers and Information at Suez Canal University. Explore our academic programs, research initiatives, and cutting-edge facilities. Join us in shaping the future of technology and innovation.">
+    <meta property="og:image" content="./Img/Fci Logo.jpeg">
+    <meta property="og:url" content="https://devscommunity23.github.io/Fci_Scu/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card meta tags -->
+    <!-- <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@yourtwitterhandle">
+    <meta name="twitter:title" content="Your Page Title Here">
+    <meta name="twitter:description"
+        content="Brief description of your page content. This will appear when your page is shared on Twitter.">
+    <meta name="twitter:image" content="https://example.com/image.jpg"> -->
+
+    <!-- Canonical URL (to avoid duplicate content issues) -->
+    <!-- <link rel="canonical" href="https://example.com/page.html">
+
+    end seo ####################################################################################### -->
+
+</head>
+
+<body>
+    <!-- start navbar ---------------------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid pe-5 ps-5">
+            <a class="navbar-brand d-flex text-center" href="#">
+                <img src="Img/Fci_Logo(1).png" alt="logo" width="60" height="60">
+
+                <!-- <div class="logo-text d-flex p-2 fw-bold fs-5">
+                    كلية الحاسبات و المعلومات
+                    <span>جامعه قناه السويس</span>
+                    Faculty Of Computers and Informations
+                    <span>Suez Canal Universty</span>
+                    FCI
+                    <span>SCU</span>
+                </div> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="fa-solid fa-bars fa-2x"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-navbar">
+                <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0 fw-bold">
+                    <li class="nav-item">
+                        <a class="nav-link active text-center" aria-current="page" href="/" id="navLink_home">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-center" href="/generalDEP"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false"  id="navLink_generalDepartments">
+                            General Departments
+                        </a>
+                        <ul class="dropdown-menu text-center">
+                            <li><a class="dropdown-item" href="/general#computer-sciences" id="navLink_computerScience">Computer sciences</a>
+                            </li>
+                            <li><a class="dropdown-item" href="/general#information-system" id="navLink_informationSystems">Information
+                                    System</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" id="navLink_specialDepartments">
+                            Special Departments
+                        </a>
+                        <ul class="dropdown-menu text-center">
+                            <li><a class="dropdown-item" href="/special#software-engineering" id="navLink_softwareEngineering">Software
+                                    Engineering
+                                </a></li>
+                            <li><a class="dropdown-item" href="/special#bioinformatics" id="navLink_bioinformatics">bioinformatics</a></li>
+                            <li><a class="dropdown-item" href="/special#artificial-intelligence" id="navLink_artificialIntelligence">Artificial
+                                    Intelligence</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" aria-current="page" href="material.html#material" id="navLink_academicMaterials">Academic
+                            Material</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" aria-current="page" href="credit.html#home" id="navLink_creditHoursSystem">Credit hours
+                            system</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" id="navLink_buildingMap">
+                            Building Map
+                        </a>
+                        <ul class="dropdown-menu text-center">
+                            <li><a class="dropdown-item" href="#" id="navLink_oldBuildingMap">Old building</a></li>
+                            <li><a class="dropdown-item" href="#" id="navLink_newBuildingMap">New building</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" aria-current="page" href="/acts" id="navLink_studentActivities">Student
+                            Activities</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="btn-container">
+                <label class="switch btn-color-mode-switch">
+                    <input type="checkbox" name="color_mode" id="color_mode" value="1">
+                    <label for="color_mode" class="btn-color-mode-switch-inner"></label>
+                </label>
+            </div>
+            <a class="Arabic ps-3 pb-2 text-white " id="trans" lang="ar">Ar</a>
+        </div>
+    </nav>
+    <!-- end navbar ---------------------------------------------------------------------->
+
+    <!-- start home ---------------------------------------------------------------------->
+    <section id="Home" class="home pb-5 text-center ">
+        <div class="container">
+            <div class="row">
+                <div class="loader">
+                    <img src="Img/activites1.jpg" alt="devs-community">
+                </div>
+                <div class="col-12 mt-5 mb-2">
+                    <div class="caption">
+                        <h1 class="fw-bold  main-text text-white" text-data="Welcome To unofficial FCI-SCU Website">
+                        </h1>
+                        <p class="fs-5 fw-bold text-white-50 pe-5 ps-5 mt-5 pt-5" id="Home_hero">Faculty of Computers and Information
+                            is an
+                            exciting
+                            place for
+                            discovery
+                            and
+                            innovation
+                            in the world
+                            of technology, where students are trained and prepared to become leaders and innovators in
+                            the
+                            field
+                            of computers and information technology.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 mt-5 mb-5">
+                    <div class="arrow-left">
+                        <i class="fa-solid fa-arrow-right fa-2x"></i>
+                    </div>
+                    <div class="arrow-right">
+                        <i class="fa-solid fa-arrow-left fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end home ---------------------------------------------------------------------->
+
+    <!-- start about ---------------------------------------------------------------------->
+    <section id="About" class="about pt-5 pb-5 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 mt-3 mb-3 text-md-start">
+                    <div class="img-container">
+                        <img class="img-fluid" src="Img/about1.jpg" alt="Message">
+                    </div>
+                    <h1 class="fw-bold text-white text-center" id="Home_academic_message">Academic Message</h1>
+                    <P class="fw-bold" id="Home_academic_message_text">The Faculty of Computers and Information at Suez Canal University aspires to
+                        occupy a prominent
+                        position in the field of computers and information systems at the local and regional levels.</P>
+                </div>
+                <div class="col-12 col-md-4 mt-3 mb-3 text-md-start">
+                    <div class="img-container">
+                        <img class="img-fluid" src="Img/about2.jpg" alt="Vision" >
+                    </div>
+                    <h1 class="fw-bold text-white text-center" id="Home_academic_vision">Academic Vision</h1>
+                    <P class="fw-bold" id="Home_academic_vision_text">The Faculty of Computers and Information at Suez Canal University is committed to
+                        preparing graduates capable of competing in the labor market and scientific research in the field of computers and information systems and providing effective services to society in light of a system of values ​​and ethics.</P>
+                </div>
+                <div class="col-12 col-md-4 mt-3 mb-3 text-md-start">
+                    <div class="img-container">
+                        <img class="img-fluid" src="Img/about3.jpg" alt="Goals">
+                    </div>
+                    <h1 class="fw-bold text-white  text-center" id="Home_goals">Strategic Goals</h1>
+                    <P class="fw-bold" id="Home_goals_text">Develop and update programs, curricula, and educational methods
+                        Developing a system to support students and graduates
+                        Continuous evaluation of the educational process and evaluation of its effectiveness.</P>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end about ---------------------------------------------------------------------->
+
+    <!-- start activites ---------------------------------------------------------------------->
+    <section id="Activites" class="activites pt-5 pb-5 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-3 mb-4">
+                    <img class="img-fluid" src="Img/activites1.jpg" alt="Devs">
+                    <div class="info">
+                        <h3 class="text-white pt-2 pb-2">Devs Community</h3>
+                        <div class="social-icons d-flex gap-4 justify-content-center">
+                            <a href="https://www.facebook.com/devSCommunity12" target="_blank"><i
+                                    class="fa-brands fa-facebook-f fa-2x icon" style="color: white;"></i></a>
+                            <a href="https://devscommunity23.netlify.app/" target="_blank">
+                                <i class="fa-solid fa-globe fa-2x icon" style="color: white;"></i></a>
+                            <a href="https://www.linkedin.com/company/devs-community" target="_blank"><i
+                                    class="fa-brands fa-linkedin fa-2x icon" style="color: white;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 mb-4">
+                    <img class="img-fluid" src="Img/activites22.png" alt="ICPC">
+                    <div class="info">
+                        <h3 class="text-white pt-2 pb-2">ICPC Community</h3>
+                        <div class="social-icons d-flex gap-4 justify-content-center">
+                            <a href="https://www.facebook.com/ICPCSCU" target="_blank">
+                                <i class="fa-brands fa-facebook-f fa-2x icon" style="color: white;"></i></a>
+                            <a href="https://icpc-scu-official-website.me/" target="_blank">
+                                <i class="fa-solid fa-globe fa-2x icon" style="color: white;"></i></a>
+                            <a href="https://www.linkedin.com/company/ecpc-egyptian-collegiate-programming-contest/"
+                                target="_blank"><i class="fa-brands fa-linkedin fa-2x icon"
+                                    style="color: white;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 mb-4">
+                    <img class="img-fluid" src="Img/activites4.png" alt="GDSC">
+                    <div class="info">
+                        <h3 class="text-white pt-2 pb-2">GDSC Community</h3>
+                        <div class="social-icons d-flex gap-4 justify-content-center">
+                            <a href="https://www.facebook.com/GDSCSuezCanalUniversity" target="_blank"><i
+                                    class="fa-brands fa-facebook-f fa-2x icon" style="color: white;"></i></a>
+                            <a href="https://www.linkedin.com/company/gdscsuezcanal/?originalSubdomain=eg"
+                                target="_blank"><i class="fa-brands fa-linkedin fa-2x icon"
+                                    style="color: white;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 mb-4">
+                    <img class="img-fluid" src="Img/activites55.png" alt="Trosc">
+                    <div class=" info">
+                        <h3 class="text-white pt-2 pb-2">Trosc Community</h3>
+                        <div class="social-icons d-flex gap-4 justify-content-center">
+                            <a href="https://www.facebook.com/profile.php?id=61552063073074" target="_blank">
+                                <i class="fa-brands fa-facebook-f fa-2x icon" style="color: white;"></i></a>
+                            <a href="https://www.linkedin.com/company/troscscu/" target="_blank"><i
+                                    class="fa-brands fa-linkedin fa-2x icon" style="color: white;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end activites ---------------------------------------------------------------------->
+
+
+    <!-- start contact ---------------------------------------------------------------------->
+    <section id="Contact" class="contact text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mt-3 mb-3 d-flex justify-content-center">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3433.357024402202!2d32.270700574656765!3d30.623894190886237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f8598300c095b3%3A0xca6b480c2af4a41e!2sFaculty%20of%20Computers%20and%20Information!5e0!3m2!1sen!2seg!4v1708546110869!5m2!1sen!2seg"
+                        width="1200" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end contact ---------------------------------------------------------------------->
+    <section id="footer" class="footer pt-3 pb-3 pb-md-1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-9 mt-2 contact-info">
+                    <div class="d-flex justify-content-center mb-2 mb-md-0 ps-md-5">
+                        <p class="fs-6 fw-bold text-white" id="Footer_Location" style="padding:0rem 0.5rem">Egypt - Ismailia - New Universty - K4.5</p>
+                        <i class="fa-solid fa-location-dot ps-3 fa-2x" style="color:white"></i>
+                    </div>
+                    <div class="d-flex justify-content-center mb-2 mb-md-0 ps-md-5">
+                        <p class="fs-6 fw-bold text-white" style="padding:0rem 0.5rem">dean@ci.suez.edu.eg</p>
+                        <i class="fa-solid fa-envelope ps-3 fa-2x" style="color:white"></i>
+                    </div>
+                    <div class="d-flex justify-content-center mb-2 mb-md-0 ps-md-5">
+                        <p class="fs-6 fw-bold text-white" id="Footer_Phone" style="padding:0rem 0.5rem">Phone:/01022474253</p>
+                        <i class="fa-solid fa-phone ps-3 fa-2x" style="color:white"></i>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mt-2 d-flex justify-content-center gap-4 social">
+                    <a href="https://www.facebook.com/fci.union.page" target="_blank">
+                        <i class="fa-brands fa-facebook-f fa-2x icon" style="color: white;"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@user-yh5lp8sk3u" target="_blank">
+                        <i class="fa-brands fa-youtube fa-2x icon" style="color: white;"></i>
+                    </a>
+                </div>
+                <div class="col-12 text-center">
+                    <p class=" text-white-50 pt-3 pt-md-0">&#169; Powered By <span><a class="text-white-50"
+                                href="https://devscommunity23.netlify.app/" target="_blank"
+                                style="text-decoration: none;">DevSCommunity</a></span>
+                        2024 || <a href="feedback.html" target="_blank" class="feedback-label text-white fw-bold">Give
+                            Us Feedback...
+                        </a></p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+    <script src="js/all.min.js"></script>
+    <!-- <script src="js/homeTrans.js"></script> -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/translator.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>AOS.init();</script>
+</body>
+
+</html>

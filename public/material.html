@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/material.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" href="./Img/Fci_Logo(1).png" type="image/icon type">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Faculty Of Computers and Informations</title>
+</head>
+
+<body>
+    <!-- start navbar ---------------------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid pe-5 ps-5">
+            <a class="navbar-brand d-flex text-center" href="#">
+                <img src="Img/Fci_Logo(1).png" alt="logo" width="60" height="60">
+
+                <!-- <div class="logo-text d-flex p-2 fw-bold fs-5">
+                    كلية الحاسبات و المعلومات
+                    <span>جامعه قناه السويس</span>
+                    Faculty Of Computers and Informations
+                    <span>Suez Canal Universty</span>
+                    FCI
+                    <span>SCU</span>
+                </div> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="fa-solid fa-bars fa-2x"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-navbar">
+                <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0 fw-bold">
+                    <li class="nav-item">
+                        <a class="nav-link active text-center" aria-current="page" href="index.html" id="navLink_home">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-center" href="generalDEP.html#general-home"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false"  id="navLink_generalDepartments">
+                            General Departments
+                        </a>
+                        <ul class="dropdown-menu text-center">
+                            <li><a class="dropdown-item" href="general.html#computer-sciences" id="navLink_computerScience">Computer sciences</a>
+                            </li>
+                            <li><a class="dropdown-item" href="general.html#information-system" id="navLink_informationSystems">Information
+                                    System</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" id="navLink_specialDepartments">
+                            Special Departments
+                        </a>
+                        <ul class="dropdown-menu text-center">
+                            <li><a class="dropdown-item" href="special.html#software-engineering" id="navLink_softwareEngineering">Software
+                                    Engineering
+                                </a></li>
+                            <li><a class="dropdown-item" href="special.html#bioinformatics" id="navLink_bioinformatics">bioinformatics</a></li>
+                            <li><a class="dropdown-item" href="special.html#artificial-intelligence" id="navLink_artificialIntelligence">Artificial
+                                    Intelligence</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" aria-current="page" href="material.html#material" id="navLink_academicMaterials">Academic
+                            Material</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" aria-current="page" href="credit.html#home" id="navLink_creditHoursSystem">Credit hours
+                            system</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" id="navLink_buildingMap">
+                            Building Map
+                        </a>
+                        <ul class="dropdown-menu text-center">
+                            <li><a class="dropdown-item" href="#" id="navLink_oldBuildingMap">Old building</a></li>
+                            <li><a class="dropdown-item" href="#" id="navLink_newBuildingMap">New building</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" aria-current="page" href="acrivites.html#activite-home" id="navLink_studentActivities">Student
+                            Activities</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="btn-container">
+                <label class="switch btn-color-mode-switch">
+                    <input type="checkbox" name="color_mode" id="color_mode" value="1">
+                    <label for="color_mode" class="btn-color-mode-switch-inner"></label>
+                </label>
+            </div>
+            <a class="Arabic ps-3 pb-2 text-white " id="trans" lang="ar">Ar</a>
+        </div>
+    </nav>
+    <!-- end navbar ---------------------------------------------------------------------->
+
+    <!-- start home ---------------------------------------------------------------------->
+    <section id="material" class="material text-center pt-5 pb-5">
+        <div class="container">
+            <div class="loader">
+                <img src="Img/activites1.jpg" alt="devs-community">
+            </div>
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-12 m-auto mt-3 main-div">
+                    <div class="academic-year First">
+                        <h2 class="label">First Year</h2>
+                    </div>
+                    <div class="ff-semiseter semiseter ">
+                        <h2 class="label">First Semiseter</h2>
+                    </div>
+                    <div class="ff-subject subject">
+                        <a href="https://drive.google.com/drive/folders/1WJOAf0n1vUgG_87_KSuLiRsys4eTehdP"
+                            class="label fw-bold fs-3" target="_blank">Calculus</a>
+                    </div>
+                    <div class="ff-subject subject">
+                        <a href="https://drive.google.com/drive/folders/13FxfHCOnXRrIfOmHhdERtAmce8sprGye"
+                            class="label fw-bold fs-3" target="_blank">Intro to cs</a>
+                    </div>
+                    <div class="ff-subject subject">
+                        <a href="https://drive.google.com/drive/folders/1LvdORXWz-Y_hTQrbn1Jky30HqfDWX4Gd"
+                            class="label fw-bold fs-3" target="_blank">Intro to database</a>
+                    </div>
+                    <div class="ff-subject subject">
+                        <a href="https://drive.google.com/drive/folders/12lNmapVLVpJFXSQ4e_gUu7psqdtjurHy"
+                            class="label fw-bold fs-3" target="_blank">Discrete</a>
+                    </div>
+                    <div class="ff-subject subject">
+                        <a href="https://drive.google.com/drive/folders/1ODZnWoQo05zAiZSPeBzDvng5Xh3AL3u6"
+                            class="label fw-bold fs-3" target="_blank">Information system</a>
+                    </div>
+                    <div class="ff-subject subject">
+                        <a href="https://drive.google.com/drive/folders/1P4mCj2qjU9MR6WzQUYmGjr0cFl1tXsUw"
+                            class="label fw-bold fs-3" target="_blank">English</a>
+                    </div>
+                    <div class="ff-subject subject">
+                        <a href="https://drive.google.com/drive/folders/1OK-s0vpkkYR5bqMSd5gMQ7zTVuO2HB8G"
+                            class="label fw-bold fs-3" target="_blank">Social issues</a>
+                    </div>
+
+                    <div class="fs-semiseter semiseter">
+                        <h2 class="label">Second Semiseter</h2>
+                    </div>
+                    <div class="fs-subject subject">
+                        <a href="https://drive.google.com/drive/folders/18RHWE2sX1UVNov0scidZnTbOUK7_0bKO"
+                            class="label fw-bold fs-3" target="_blank">Linear algebra</a>
+                    </div>
+                    <div class="fs-subject subject">
+                        <a href="https://drive.google.com/drive/folders/1rRF5NWm8Am_iqnX5hKzoMCVwWIQct7XL"
+                            class="label fw-bold fs-3" target="_blank">Statistics and probability</a>
+                    </div>
+                    <div class="fs-subject subject">
+                        <a href="https://drive.google.com/drive/folders/1rhm7MIBccU9GdmxW8fMCwvuxMKNIguKj"
+                            class="label fw-bold fs-3" target="_blank">Found. Of Programming</a>
+                    </div>
+                    <div class="fs-subject subject">
+                        <a href="https://drive.google.com/drive/folders/1rl7fgF0nJs-weJ126G8E5fufq3Q02y08"
+                            class="label fw-bold fs-3" target="_blank">Digital Logic Design</a>
+                    </div>
+                    <div class="fs-subject subject">
+                        <a href="https://drive.google.com/drive/folders/1rViElJWWedvzj0QZwvebUJfOqZXlkkLL"
+                            class="label fw-bold fs-3" target="_blank">Analysis And Design</a>
+                    </div>
+                    <div class="fs-subject subject">
+                        <a href="https://drive.google.com/drive/folders/1ABIn5i5VNz_AEUl0cRzXX24iEsavkcs6"
+                            class="label fw-bold fs-3" target="_blank">Technical writting</a>
+                    </div>
+                    <div class="fs-subject subject">
+                        <a href="https://drive.google.com/drive/folders/1rRF5NWm8Am_iqnX5hKzoMCVwWIQct7XL"
+                            class="label fw-bold fs-3" target="_blank">Gawda</a>
+                    </div>
+                    <!--  -->
+                    <!--  -->
+                    <div class="academic-year Second">
+                        <h2 class="label">Second Year</h2>
+                    </div>
+                    <div class="sf-semiseter semiseter ">
+                        <h2 class="label">First Semiseter</h2>
+                    </div>
+                    <div class="sf-subject subject">
+                        <a href="https://drive.google.com/drive/folders/1xAVCzPwhvHyubm0qZCavdFFCGsThfm0d"
+                            class="label fw-bold fs-3" target="_blank">Stochastic Operation</a>
+                    </div>
+                    <div class="sf-subject subject">
+                        <a href="https://drive.google.com/drive/folders/11iXihY9YRCm6JwX-UrGMaHF7aWKDt2xN"
+                            class="label fw-bold fs-3" target="_blank">Oberational Research</a>
+                    </div>
+                    <div class="sf-subject subject">
+                        <a href="https://drive.google.com/drive/folders/1K_zGBY8J1XFv8xaLS7FCdiubihZyxBiO"
+                            class="label fw-bold fs-3" target="_blank">Data Structure</a>
+                    </div>
+                    <div class="sf-subject subject">
+                        <a href="https://drive.google.com/drive/folders/12V2rGqlC23tGcE55IOdYRaQINcRRVWXV"
+                            class="label fw-bold fs-3" target="_blank">Object Oriented Prog</a>
+                    </div>
+                    <div class="sf-subject subject">
+                        <a href="https://drive.google.com/drive/folders/18DTXREs_2mm6xQzsGeTzgmp11gwKdKe-"
+                            class="label fw-bold fs-3" target="_blank">Infotmation Theory</a>
+                    </div>
+                    <div class="sf-subject subject">
+                        <a href="https://drive.google.com/drive/folders/1crDeksci4qPMoDIaazn9Z8u88TRWsRkq"
+                            class="label fw-bold fs-3" target="_blank">Web Programming</a>
+                    </div>
+                    <div class="ss-semiseter semiseter">
+                        <h2 class="label">Second Semiseter</h2>
+                    </div>
+                    <div class="ss-subject subject">
+                        <a href="https://drive.google.com/drive/folders/1CjEZAml2Oe3o7zi6vVs1z1uh-QQIdMdr"
+                            class="label fw-bold fs-3" target="_blank">Advanced Math</a>
+                    </div>
+                    <div class="ss-subject subject">
+                        <a href="https://drive.google.com/drive/folders/1mQMhTzbF9CwZDo07UzG3ALtsn8BzakeA"
+                            class="label fw-bold fs-3" target="_blank">Ordinary Differential</a>
+                    </div>
+                    <div class="ss-subject subject">
+                        <a href="https://drive.google.com/drive/folders/1RoRYpk-Uqu_FqJ_zIG5aH1G_i2WcQzBq"
+                            class="label fw-bold fs-3" target="_blank">Algorithm</a>
+                    </div>
+                    <div class="ss-subject subject">
+                        <a href="https://drive.google.com/drive/folders/1RIxh6sBz2-4lqroTOqaoaTCDozhb3G0B"
+                            class="label fw-bold fs-3" target="_blank">Concepts Of Prog</a>
+                    </div>
+                    <div class="ss-subject subject">
+                        <a href="https://drive.google.com/drive/folders/1HlamFtVz661-KNDTWjL2MET9UtJgvHNu"
+                            class="label fw-bold fs-3" target="_blank">Electronic Business</a>
+                    </div>
+                    <div class="ss-subject subject">
+                        <a href="https://drive.google.com/drive/folders/1H2MCxyBJDBNpdKf_xR5Z8cUNtslPafwX"
+                            class="label fw-bold fs-3" target="_blank">Physics</a>
+                    </div>
+                    <!--  -->
+                    <!--  -->
+                    <div class="academic-year Third">
+                        <h2 class="label">Third Year</h2>
+                    </div>
+                    <div class="tf-semiseter semiseter ">
+                        <h2 class="label">First Semiseter</h2>
+                    </div>
+                    <div class="tf-subject subject">This is the hidden div</div>
+                    <div class="tf-subject subject">This is the hidden div</div>
+                    <div class="tf-subject subject">This is the hidden div</div>
+                    <div class="tf-subject subject">This is the hidden div</div>
+                    <div class="ts-semiseter semiseter ">
+                        <h2 class="label">Second Semiseter</h2>
+                    </div>
+                    <div class="ts-subject subject">This is the hidden div</div>
+                    <div class="ts-subject subject">This is the hidden div</div>
+                    <div class="ts-subject subject">This is the hidden div</div>
+                    <div class="ts-subject subject">This is the hidden div</div>
+                    <!--  -->
+                    <!--  -->
+                    <div class="academic-year Fourth">
+                        <h2 class="label">Fourth Year</h2>
+                    </div>
+                    <div class="fof-semiseter semiseter ">
+                        <h2 class="label">First Semiseter</h2>
+                    </div>
+                    <div class="fof-subject subject">This is the hidden div</div>
+                    <div class="fof-subject subject">This is the hidden div</div>
+                    <div class="fof-subject subject">This is the hidden div</div>
+                    <div class="fof-subject subject">This is the hidden div</div>
+                    <div class="fos-semiseter semiseter ">
+                        <h2 class="label">Second Semiseter</h2>
+                    </div>
+                    <div class="fos-subject subject">This is the hidden div</div>
+                    <div class="fos-subject subject">This is the hidden div</div>
+                    <div class="fos-subject subject">This is the hidden div</div>
+                    <div class="fos-subject subject">This is the hidden div</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end home ---------------------------------------------------------------------->
+
+
+
+
+
+    <!-- start footer -->
+    <section id="footer" class="footer pt-3 pb-3 pb-md-1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 pt-3 text-center">
+                    <p class=" text-white-50 pt-3 pt-md-0">&#169; Powered By <span><a class="text-white-50"
+                                href="https://devscommunity23.netlify.app/" target="_blank"
+                                style="text-decoration: none;">DevSCommunity</a></span>
+                        2024</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- end footer ---------------------------------------------------------------------->
+    <script src="js/material.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/translator.js"></script>
+
+    <script>AOS.init();</script>
+</body>
+
+</html>

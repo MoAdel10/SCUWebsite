@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400;500;600;700&family=Croissant+One&family=Flavors&family=Inter:wght@300;400;500;600;700;800;900&family=Kalam:wght@300;400;700&family=Martian+Mono:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Pixelify+Sans:wght@400;500;600;700&family=Ramabhadra&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Skranji:wght@400;700&family=Tajawal:wght@200;300;400;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+:root {
+  --section-primary-color: #0f7fcf;
+  --section-scondary-color: #3b6cf5;
+  --section-third-color: #0cbdf3;
+  --red-color: #ce1111;
+  --blue-color: #0f7fcf;
+  --blue-color-hover: #99001a;
+  --white-color: #ffffff;
+  --btn-location: 23px;
+}
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--section-scondary-color),
+    var(--section-primary-color),
+    var(--section-third-color)
+  );
+}
+.feedback-form {
+  height: 100vh;
+}
+
+/* start footer-----------------------------------------------------------------------------  */
+.footer {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--section-scondary-color),
+    var(--section-primary-color),
+    var(--section-third-color)
+  );
+}
+.number-form label {
+  color: var(--white-color);
+  font-size: 15px;
+}
+.input-field,
+.input-field:focus {
+  outline-color: var(--white-color);
+  margin: 8px 0;
+  padding: 10px;
+  width: 100%;
+  color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+
+#sub-btn {
+  margin-top: 16px;
+  padding: 12px;
+  width: 40%;
+  color: var(--section-primary-color);
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: var(--white-color);
+}
+
+#sub-btn:hover {
+  background-color: var(--section-primary-color);
+  color: var(--white-color);
+  border: 1px solid var(--white-color);
+}
+/* end footer-----------------------------------------------------------------------------  */

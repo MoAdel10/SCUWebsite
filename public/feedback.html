@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/feedback.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" href="./Img/Fci_Logo(1).png" type="image/icon type">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Faculty Of Computers and Informations</title>
+</head>
+
+<body>
+    <!-- start navbar ---------------------------------------------------------------------->
+    <!-- <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid pe-5 ps-5">
+            <a class="navbar-brand d-flex text-center" href="#">
+                <img src="Img/Fci_Logo(1).png" alt="logo" width="60" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="fa-solid fa-bars fa-2x"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-navbar">
+                <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0 fw-bold">
+                    <li class="nav-item">
+                        <a class="nav-link text-center" aria-current="page" href="index.html#Home">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-center" href="#general-home" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            General Departments
+                        </a>
+                        <ul class="dropdown-menu text-center">
+                            <li><a class="dropdown-item" href="#computer-sciences">Computer sciences</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#information-system">Information
+                                    System</a></li>
+                            <li><a class="dropdown-item" href="#basic-sciences">Basic sciences</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Special Departments
+                        </a>
+                        <ul class="dropdown-menu text-center">
+                            <li><a class="dropdown-item" href="special.html#software-engineering">Software
+                                    Engineering
+                                </a></li>
+                            <li><a class="dropdown-item" href="special.html#bioinformatics">bioinformatics</a></li>
+                            <li><a class="dropdown-item" href="special.html#artificial-intelligence">Artificial
+                                    Intelligence</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" aria-current="page" href="material.html#material">Academic
+                            Material</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" aria-current="page" href="credit.html#home">Credit hours
+                            system</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Building Map
+                        </a>
+                        <ul class="dropdown-menu text-center">
+                            <li><a class="dropdown-item" href="#">Old building</a></li>
+                            <li><a class="dropdown-item" href="#">New building</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" aria-current="page" href="acrivites.html#activite-home">Student
+                            Activities</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="btn-container">
+                <label class="switch btn-color-mode-switch">
+                    <input type="checkbox" name="color_mode" id="color_mode" value="1">
+                    <label for="color_mode" class="btn-color-mode-switch-inner"></label>
+                </label>
+            </div>
+            <a class="Arabic ps-3 pb-2 text-white " id="trans" lang="ar">Ar</a>
+        </div>
+    </nav> -->
+    <!-- end navbar ---------------------------------------------------------------------->
+
+    <!-- start feedback ---------------------------------------------------------------------->
+    <section id="feedback-form" class="feedback-form text-center d-flex align-items-center">
+        <div class="container ">
+            <div class="row d-flex align-items-center">
+                <div class="col-12 col-md-6 text-center pt-3 pb-5">
+                    <div id="app">
+                        <form class="number-form d-flex align-items-center flex-column">
+                            <label for="input1">Your Name:</label>
+                            <input type="text" id="input1" class="input-field text-start">
+                            <label for="input2">Your Massage:</label>
+                            <!-- <input type="text" id="input3" class="input-field"> -->
+                            <textarea name="" id="input3" class="input-field text-start" cols="30" rows="7"></textarea>
+                            <button type="button" id="sub-btn">Send</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 text-center">
+                    <img class="img-fluid" src="Img/feedback/feedback.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end feedback ---------------------------------------------------------------------->
+
+    <script src="js/feedback.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>AOS.init();</script>
+
+</body>
+
+</html>

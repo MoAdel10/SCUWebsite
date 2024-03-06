@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/special.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" href="./Img/Fci_Logo(1).png" type="image/icon type">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Faculty Of Computers and Informations</title>
+</head>
+
+<body>
+   <!-- start navbar ---------------------------------------------------------------------->
+   <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid pe-5 ps-5">
+        <a class="navbar-brand d-flex text-center" href="#">
+            <img src="Img/Fci_Logo(1).png" alt="logo" width="60" height="60">
+
+            <!-- <div class="logo-text d-flex p-2 fw-bold fs-5">
+                كلية الحاسبات و المعلومات
+                <span>جامعه قناه السويس</span>
+                Faculty Of Computers and Informations
+                <span>Suez Canal Universty</span>
+                FCI
+                <span>SCU</span>
+            </div> -->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <i class="fa-solid fa-bars fa-2x"></i>
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0 fw-bold">
+                <li class="nav-item">
+                    <a class="nav-link active text-center" aria-current="page" href="index.html" id="navLink_home">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-center" href="generalDEP.html#general-home"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false"  id="navLink_generalDepartments">
+                        General Departments
+                    </a>
+                    <ul class="dropdown-menu text-center">
+                        <li><a class="dropdown-item" href="general.html#computer-sciences" id="navLink_computerScience">Computer sciences</a>
+                        </li>
+                        <li><a class="dropdown-item" href="general.html#information-system" id="navLink_informationSystems">Information
+                                System</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" id="navLink_specialDepartments">
+                        Special Departments
+                    </a>
+                    <ul class="dropdown-menu text-center">
+                        <li><a class="dropdown-item" href="special.html#software-engineering" id="navLink_softwareEngineering">Software
+                                Engineering
+                            </a></li>
+                        <li><a class="dropdown-item" href="special.html#bioinformatics" id="navLink_bioinformatics">bioinformatics</a></li>
+                        <li><a class="dropdown-item" href="special.html#artificial-intelligence" id="navLink_artificialIntelligence">Artificial
+                                Intelligence</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-center" aria-current="page" href="material.html#material" id="navLink_academicMaterials">Academic
+                        Material</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-center" aria-current="page" href="credit.html#home" id="navLink_creditHoursSystem">Credit hours
+                        system</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" id="navLink_buildingMap">
+                        Building Map
+                    </a>
+                    <ul class="dropdown-menu text-center">
+                        <li><a class="dropdown-item" href="#" id="navLink_oldBuildingMap">Old building</a></li>
+                        <li><a class="dropdown-item" href="#" id="navLink_newBuildingMap">New building</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-center" aria-current="page" href="acrivites.html#activite-home" id="navLink_studentActivities">Student
+                        Activities</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="btn-container">
+            <label class="switch btn-color-mode-switch">
+                <input type="checkbox" name="color_mode" id="color_mode" value="1">
+                <label for="color_mode" class="btn-color-mode-switch-inner"></label>
+            </label>
+        </div>
+        <a class="Arabic ps-3 pb-2 text-white " id="trans" lang="ar">Ar</a>
+    </div>
+</nav>
+<!-- end navbar ---------------------------------------------------------------------->
+
+
+    <!-- start leader ---------------------------------------------------------------------->
+    <section id="special-home" class="special-home pb-5 text-center">
+        <div class="container">
+            <div class="loader">
+                <img src="Img/activites1.jpg" alt="devs-community">
+            </div>
+            <div class="section-label" data-aos="fade-up" data-aos-easing="ease-in-out">
+                <h1 id="Special_Leaders"> Leaders</h1>
+                <!-- <p class="text-center fw-bold">Dont Be Busy Be Productive</p> -->
+            </div>
+            <div class="row d-flex align-items-center">
+                <div class="col-12 col-md-4 mt-3">
+                    <img class="img-fluid" src="Img/leaders/cs.jpg" alt="cs-leader">
+                    <h4 class="fw-bold pt-2 text-white">Prof Dr/ Hassan Almahdy Alwasef</h4>
+                    <p class="fw-bold text-white-50">Computer Science Department Leader</p>
+                </div>
+                <div class="col-12 col-md-4 mt-3">
+                    <img class="img-fluid" src="Img/leaders/is.jpeg" alt="cs-leader">
+                    <h4 class="fw-bold pt-2 text-white">A.Prof Dr/ bin bila Elsayed Tawfek</h4>
+                    <p class="fw-bold text-white-50">Informations Systems Department Leader</p>
+                </div>
+                <div class="col-12 col-md-4 mt-3">
+                    <img class="img-fluid" src="Img/leaders/bs.png" alt="cs-leader">
+                    <h4 class="fw-bold pt-2 text-white">A.Prof Dr/ Abd elmonem Mogahed</h4>
+                    <p class="fw-bold text-white-50">Basic Sciences Department Leader</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end leader ---------------------------------------------------------------------->
+
+    <!-- start software-engineering ---------------------------------------------------------------------->
+    <section id="software-engineering" class="software-engineering pt-5 pb-5 text-center text-md-start">
+        <div class="container">
+            <div class="section-label text-center" data-aos="fade-up" data-aos-easing="ease-in-out">
+                <h1>Software Engineering</h1>
+                <!-- <p class="text-center fw-bold">Dont Be Busy Be Productive</p> -->
+            </div>
+            <div class="row d-flex change align-items-center">
+                <div class="col-12 col-md-6 mt-3">
+                    <div class="img-container">
+                        <img class="img-fluid" src="Img/general/se.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-3">
+                    <div class="msg">
+                        <h2 class="fw-bold" id="SE_Program_Vision">Program Vision</h2>
+                        <p class="fw-bold" id="SE_Program_Vision_Text">Providing a distinguished academic program in the field of computer science
+                            to advance
+                            college
+                            graduates to a level capable of competing and keeping pace with rapid technological changes.
+                        </p>
+                    </div>
+                    <div class="vision">
+                        <h2 class="fw-bold" id="SE_Program_Message" >Program Message</h2>
+                        <p class="fw-bold" id="SE_Program_Message_Text">Preparing graduates with high cognitive and practical skills in the field of
+                            computer science
+                            by
+                            providing them with the latest knowledge, advanced skills, and high moral values ​​to serve
+                            society.</p>
+                    </div>
+                </div>
+                <div class="col-12 mt-3 text-start">
+                    <h2 class="fw-bold" id="SE_Program_Goals">Program Goals</h2>
+                    <div id="SE_Program_Goals_Text">
+                    <p class="fw-bold">● Preparing graduates equipped with theoretical and practical knowledge of the
+                        basics of computer
+                        science that will enable them to compete academically and practically.</p>
+                    <p class="fw-bold">● The ability to communicate with others clearly and effectively using technical
+                        concepts.</p>
+                    <p class="fw-bold">● Training students to apply acquired knowledge and skills to solve problems that
+                        serve society
+                    </p>
+                    <p class="fw-bold">● Ability to work with others from other disciplines</p>
+                    <p class="fw-bold">● Appropriate development of academic curricula, including the integration of
+                        rapid changes in
+                        computer science.</p>
+                    <p class="fw-bold">● Organizing seminars and holding scientific courses with the aim of raising the
+                        scientific and
+                        research level among graduates.</p>
+                    <p class="fw-bold">● Meeting society’s need with competencies trained to use computer technology in
+                        various areas of
+                        life</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end software-engineering ---------------------------------------------------------------------->
+
+    <!-- start bioinformatics ---------------------------------------------------------------------->
+    <section id="bioinformatics" class="bioinformatics pt-5 pb-5 text-center text-md-start">
+        <div class="container">
+            <div class="section-label" data-aos="fade-up" data-aos-easing="ease-in-out">
+                <h1>Bioinformatics</h1>
+                <!-- <p class="text-center fw-bold">Dont Be Busy Be Productive</p> -->
+            </div>
+            <div class="row d-flex change align-items-center">
+                <div class="col-12 col-md-6 mt-3">
+                    <div class="img-container">
+                        <img class="img-fluid" src="Img/general/Bi.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-3">
+                    <div class="msg">
+                        <h2 class="fw-bold" id="Bio_Program_Vision">Program Vision</h2>
+                        <p class="fw-bold" id="Bio_Program_Vision_Text">Providing a distinguished academic program in the field of computer science
+                            to advance
+                            college
+                            graduates to a level capable of competing and keeping pace with rapid technological changes.
+                        </p>
+                    </div>
+                    <div class="vision">
+                        <h2 class="fw-bold" id="Bio_Program_Message">Program Message</h2>
+                        <p class="fw-bold" id="Bio_Program_Message_Text">Preparing graduates with high cognitive and practical skills in the field of
+                            computer science
+                            by
+                            providing them with the latest knowledge, advanced skills, and high moral values ​​to serve
+                            society.</p>
+                    </div>
+                </div>
+                <div class="col-12 mt-3 text-start">
+                    <h2 class="fw-bold"id="Bio_Program_Goals">Program Goals</h2>
+                    <div id="Bio_Program_Goals_Text">
+
+                        <p class="fw-bold">● Preparing graduates equipped with theoretical and practical knowledge of the
+                            basics of computer
+                        science that will enable them to compete academically and practically.</p>
+                    <p class="fw-bold">● The ability to communicate with others clearly and effectively using technical
+                        concepts.</p>
+                    <p class="fw-bold">● Training students to apply acquired knowledge and skills to solve problems that
+                        serve society
+                    </p>
+                    <p class="fw-bold">● Ability to work with others from other disciplines</p>
+                    <p class="fw-bold">● Appropriate development of academic curricula, including the integration of
+                        rapid changes in
+                        computer science.</p>
+                        <p class="fw-bold">● Organizing seminars and holding scientific courses with the aim of raising the
+                            scientific and
+                            research level among graduates.</p>
+                            <p class="fw-bold">● Meeting society’s need with competencies trained to use computer technology in
+                                various areas of
+                                life</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end bioinformatics ---------------------------------------------------------------------->
+
+    <!-- start artificial-intelligence ---------------------------------------------------------------------->
+    <section id="artificial-intelligence" class="artificial-intelligence pt-5 pb-5 text-center text-md-start">
+        <div class="container">
+            <div class="section-label text-center" data-aos="fade-up" data-aos-easing="ease-in-out">
+                <h1>Artificial Intelligence</h1>
+            </div>
+            <div class="row d-flex align-items-center change">
+                <div class="col-12 col-md-6 mt-3">
+                    <div class="img-container">
+                        <img class="img-fluid" src="Img/general/ai.jpg" alt="">
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-3">
+                    <div class="msg">
+                        <h2 class="fw-bold" id="AI_Program_Vision">Program Vision</h2>
+                        <p class="fw-bold" id="AI_Program_Vision_Text">Providing a distinguished academic program in the field of computer science
+                            to advance
+                            college
+                            graduates to a level capable of competing and keeping pace with rapid technological changes.
+                        </p>
+                    </div>
+                    <div class="vision">
+                        <h2 class="fw-bold" id="AI_Program_Message">Program Message</h2>
+                        <p class="fw-bold" id="AI_Program_Message_Text">Preparing graduates with high cognitive and practical skills in the field of
+                            computer science
+                            by
+                            providing them with the latest knowledge, advanced skills, and high moral values ​​to serve
+                            society.</p>
+                    </div>
+                </div>
+                <div class="col-12 mt-3 text-start">
+                    <h2 class="fw-bold" id="AI_Program_Goals">Program Goals</h2>
+                    <div id="AI_Program_Goals_Text">
+
+                        <p class="fw-bold">● Preparing graduates equipped with theoretical and practical knowledge of the
+                            basics of computer
+                            science that will enable them to compete academically and practically.</p>
+                    <p class="fw-bold">● The ability to communicate with others clearly and effectively using technical
+                        concepts.</p>
+                    <p class="fw-bold">● Training students to apply acquired knowledge and skills to solve problems that
+                        serve society
+                    </p>
+                    <p class="fw-bold">● Ability to work with others from other disciplines</p>
+                    <p class="fw-bold">● Appropriate development of academic curricula, including the integration of
+                        rapid changes in
+                        computer science.</p>
+                        <p class="fw-bold">● Organizing seminars and holding scientific courses with the aim of raising the
+                            scientific and
+                            research level among graduates.</p>
+                            <p class="fw-bold">● Meeting society’s need with competencies trained to use computer technology in
+                                various areas of
+                                life</p>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end artificial-intelligence ---------------------------------------------------------------------->
+
+    <!-- start footer ---------------------------------------------------------------------->
+    <section id="footer" class="footer pt-3 pb-3 pb-md-1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class=" text-white-50 pt-3 pt-md-0">&#169; Powered By <span><a class="text-white-50"
+                                href="https://devscommunity23.netlify.app/" target="_blank"
+                                style="text-decoration: none;">DevSCommunity</a></span>
+                        2024</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- end footer ---------------------------------------------------------------------->
+
+    <script src="js/main.js"></script>
+    <script src="js/all.min.js"></script>
+    <!-- <script src="js/homeTrans.js"></script> -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/translator.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>AOS.init();</script>
+</body>
+
+</html>

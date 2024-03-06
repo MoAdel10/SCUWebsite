@@ -1,0 +1,334 @@
+{
+  "sharedComponents": [
+    {
+      "Navbar": [
+        {
+          "HTMLID": "navLink_home",
+          "en": "Home",
+          "ar": "الرئيسية"
+        },
+        {
+          "HTMLID": "navLink_generalDepartments",
+          "en": "General Departments",
+          "ar": "الاقسام العامة"
+        },
+        {
+          "HTMLID": "navLink_computerScience",
+          "en": "Computer Science",
+          "ar": "علوم الحاسوب"
+        },
+        {
+          "HTMLID": "navLink_informationSystems",
+          "en": "Information Systems",
+          "ar": "نظم المعلومات"
+        },
+        {
+          "HTMLID": "navLink_specialDepartments",
+          "en": "Special Departments",
+          "ar": "الاقسام الخاصة"
+        },
+        {
+          "HTMLID": "navLink_softwareEngineering",
+          "en": "Software Engineering",
+          "ar": "هندسة البرمجيات"
+        },
+        {
+          "HTMLID": "navLink_bioinformatics",
+          "en": "Bioinformatics",
+          "ar": "المعلومات الحيوية"
+        },
+        {
+          "HTMLID": "navLink_artificialIntelligence",
+          "en": "Artificial Intelligence",
+          "ar": "الذكاء الصناعي"
+        },
+        {
+          "HTMLID": "navLink_academicMaterials",
+          "en": "Academic Materials",
+          "ar": "المواد الدراسية"
+        },
+        {
+          "HTMLID": "navLink_creditHoursSystem",
+          "en": "Credit Hours System",
+          "ar": "نظام الساعات المعتمدة"
+        },
+        {
+          "HTMLID": "navLink_buildingMap",
+          "en": "Building Map",
+          "ar": "خريطة البناية"
+        },
+        {
+          "HTMLID": "navLink_oldBuildingMap",
+          "en": "Old Building Map",
+          "ar": "خريطة المبنى القديمة"
+        },
+        {
+          "HTMLID": "navLink_newBuildingMap",
+          "en": "New Building Map",
+          "ar": "خريطة المبنى الجديدة"
+        },
+        {
+          "HTMLID": "navLink_studentActivities",
+          "en": "Student Activities",
+          "ar": "الانشطة الطلابية"
+        }
+      ],
+      "Footer": [
+        {
+          "HTMLID": "Footer_Location",
+          "en": "Egypt - Ismailia - New Universty - K4.5",
+          "ar": "مصر - الاسماعيليه - الجامعة الجديدة - كيلو 4.5"
+        },
+        {
+          "HTMLID": "Footer_Phone",
+          "en": "Phone:/01022474253",
+          "ar": "هاتف:/01022474253"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "name": "Home",
+      "components": [
+        {
+          "HTMLID": "Home_hero",
+          "en": "Faculty of Computers and Information is an exciting place for discovery and innovation in the world of technology, where students are trained and prepared to become leaders and innovators in the field of computers and information technology.",
+          "ar": "كلية الحاسوب والمعلومات هي مكان مثير للإكتشاف والإبتكار في عالم التكنولوجيا، حيث يتم تدريب الطلاب وتحضيرهم ليصبحوا قادة ومبتكرين في مجال الحاسوب وتكنولوجيا المعلومات."
+        },
+        {
+          "HTMLID": "Home_academic_message",
+          "en": "Academic Message",
+          "ar": "الرسالة الأكاديمية"
+        },
+        {
+          "HTMLID": "Home_academic_vision",
+          "en": "Academic Vision",
+          "ar": "الرؤية الأكاديمية"
+        },
+        {
+          "HTMLID": "Home_goals",
+          "en": "Strategic Goals",
+          "ar": "الأهداف الاستراتيجية"
+        },
+        {
+          "HTMLID": "Home_academic_message_text",
+          "en": "The Faculty of Computers and Information at Suez Canal University aspires to occupy a prominent position in the field of computers and information systems at the local and regional levels.",
+          "ar": "تطمح كلية الحاسوب والمعلومات بجامعة قناة السويس إلى احتلال مكانة بارزة في مجال الحاسوب ونظم المعلومات على المستويين المحلي والإقليمي."
+        },
+        {
+          "HTMLID": "Home_academic_vision_text",
+          "en": "The Faculty of Computers and Information at Suez Canal University is committed to preparing graduates capable of competing in the labor market and scientific research in the field of computers and information systems and providing effective services to society in light of a system of values ​​and ethics.",
+          "ar": "تلتزم كلية الحاسوب والمعلومات بجامعة قناة السويس بإعداد خريجين قادرين على المنافسة في سوق العمل والبحث العلمي في مجال الحاسوب ونظم المعلومات وتقديم خدمات فعالة للمجتمع في ضوء نظام من القيم والأخلاقيات."
+        },
+        {
+          "HTMLID": "Home_goals_text",
+          "en": "Develop and update programs, curricula, and educational methods Developing a system to support students and graduates Continuous evaluation of the educational process and evaluation of its effectiveness.",
+          "ar": "تطوير وتحديث البرامج والمناهج والأساليب التعليمية تطوير نظام لدعم الطلاب والخريجين التقييم المستمر للعملية التعليمية وتقييم فعاليتها."
+        }
+      ]
+    },
+    {
+      "name": "Credit Hours System",
+      "components": [
+        {
+          "HTMLID": "GPA_INTRO",
+          "en": "It’s crucial to understand how the university classes you’re taking contribute to your degree when you first arrive in the United States. What system do you have in place to figure out how many classes you’ll need to finish your degree? This is what credit hours are about, and it’s how university students keep track of their degree progress while in school. If you’re a recent foreign student or actually new to the US university system, it may be difficult to figure out what’s going on in terms of how your coursework relates to your degree. We have included all of the answers in this blog and talk all about the Credit Hour System.",
+          "ar": "من الضروري فهم كيف تساهم الدروس الجامعية التي تتخذها في درجتك عندما تصل إلى الولايات المتحدة لأول مرة. ما هو النظام الذي لديك لمعرفة عدد الدروس التي ستحتاجها لإنهاء درجتك؟ هذا هو ما يتعلق الأمر بساعات الائتمان ، وهو كيف يحافظ الطلاب الجامعيون على تقدم درجتهم أثناء الدراسة. إذا كنت طالبًا أجنبيًا حديثًا أو حقًا جديدًا على نظام الجامعة الأمريكية ، فقد يكون من الصعب معرفة ما يحدث من حيث كيفية علاقة دورتك الدراسية بدرجتك. لقد قمنا بتضمين جميع الإجابات في هذه المدونة ونتحدث عن نظام ساعة الائتمان."
+        },
+        {
+          "HTMLID": "GAP_Crdit_Hours",
+          "en": "Credit Hours",
+          "ar": "نظام الساعات المعتمدة"
+        },
+        {
+          "HTMLID": "GPA_INTRO_2",
+          "en": "To understand the credit hour system, let us first come to terms with credit hours. Credit hours, at its most concrete sense, are measurement units that make up a degree’s completion. Each course would have a minimum number of credit hours that must be completed. Any degree will have its own collection of credit hour requirements…i.e. For example, depending on the university, a bachelor’s degree in the United States can require anywhere from 110 to 140 credits. Similarly, depending on the curriculum, it may be anywhere from 30 to 39 hours or more. In a credit hour system, the length of a course is usually expressed in credit hours. A course is given the total number of credit hours based on the amount of workload and instruction hours. Usually, lab work or lectures in a course are worth one credit. In the undergraduate degree, basic courses may be worth 2 or 3 credits. Besides, as you go through your undergraduate studies, some of them could be worth four credits. The majority of master’s classes are either 3 or 4 credits. A standard course in graduate school for an MS or MBA may be 3 to 4 credit hours, based on the course weight and load.",
+          "ar": "لفهم نظام ساعة الائتمان ، دعونا نأتي أولاً إلى اتفاق مع ساعات الائتمان. ساعات الائتمان ، في أكثر معناها العملي ، هي وحدات قياس تشكل إكمال الدرجة. يجب أن تحتوي كل دورة على عدد أدنى من ساعات الائتمان التي يجب إكمالها. ستحتوي أي درجة على مجموعتها الخاصة من متطلبات ساعات الائتمان ... أي على سبيل المثال ، اعتمادًا على الجامعة ، قد تتطلب درجة البكالوريوس في الولايات المتحدة من 110 إلى 140 رصيدًا. بالمثل ، اعتمادًا على المنهج ، قد يكون من 30 إلى 39 ساعة أو أكثر. في نظام ساعة الائتمان ، يتم التعبير عادةً عن طول الدورة في ساعات الائتمان. يتم منح الدورة العدد الإجمالي لساعات الائتمان بناءً على كمية العمل وساعات التعليم. عادةً ما تكون العمليات المختبرية أو المحاضرات في دورة تستحق ساعة ائتمان واحدة. في الدرجة الجامعية ، قد تستحق الدورات ال"
+        },
+        {
+          "HTMLID": "GPA_Degree_APP",
+          "en": "Degree App",
+          "ar": "التطبيق"
+        },
+        {
+          "HTMLID": "GPA_Degree_Text",
+          "en": "In the credit hour system, each class you take in a semester is matched to the credit hours that will be applied to your degree. However, the credit hour usually shows how much time you will need to watch lessons for that class over the week, as well as how much coursework you will need to do. A 1-credit class, for example, does not take up any of the time during the semester. You will be required to attend class once a week and complete modest work with 1- 2 credit courses. When you progress to higher-level classes, you will see that the credit level rises as the course demands more of your attention. For 3–4 credit courses, you may have to spend 3–4 hours per week in lectures, which means you’ll have to spend more time outside of class on projects and work for that class. For any 3–4 credit hour class you take, you can plan to work an additional 6–12 hours outside of class. This can vary depending on the class and the instructor, so that is how it usually happens. The core idea in a credit hour system is that the number of credit hours in a class reflects the number of hours you are supposed to watch lectures on the subject during the week. Take this with a grain of salt and it does not extend to any school. The easiest way to think of a credit hour is to consider how much “weight” it would have in your degree. The less credit hours the class has, the less work you’ll have to do and the fewer academic lectures you’ll have to attend. The greater the workload and amount of time spent watching lectures for a class, the greater the workload and amount of time spent watching lectures for that class.",
+          "ar": "في نظام ساعة الائتمان ، يتم تطابق كل فصل دراسي تأخذه بساعات الائتمان التي سيتم تطبيقها على درجتك. ومع ذلك ، تظهر ساعة الائتمان عادةً كم من الوقت ستحتاج لمشاهدة الدروس لتلك الفصل خلال الأسبوع ، فضلاً عن كمية العمل الذي ستحتاج إلى القيام به. على سبيل المثال ، لا تستغرق الدورة التي تستحق ساعة ائتمان واحدة أي من الوقت خلال الفصل الدراسي. سيُطلب منك حضور الدرس مرة واحدة في الأسبوع وإكمال عمل متواضع مع دورات الائتمان 1-2. عندما تتقدم إلى الدورات على مستوى أعلى ، سترى أن مستوى الائتمان يرتفع مع مطالب الدورة بمزيد من انتباهك. بالنسبة لدورات الائتمان 3-4 ، قد تضطر إلى قضاء 3-4 ساعات في الأسبوع في المحاضرات ، مما يعني أن عليك أن تقضي وقتًا أطول خارج الفصل على المشاريع والعمل لتلك الدورة. بالنسبة لأي فصل دراسي بساعات ا"
+        }
+      ]
+    },
+    {
+      "name": "General",
+      "components": [
+        {
+          "HTMLID": "Leaders",
+          "en": "Leaders",
+          "ar": "القادة"
+        },
+        {
+          "HTMLID": "Computer_Science",
+          "en": "Computer Science",
+          "ar": "علوم الحاسوب"
+        },
+        {
+          "HTMLID": "Program_Message",
+          "en": "Program Message",
+          "ar": "رسالة البرنامج"
+        },
+        {
+          "HTMLID": "Program_Message_Text",
+          "en": "Preparing graduates with high cognitive and practical skills in the field of computer science by providing them with the latest knowledge, advanced skills, and high moral values ​​to serve society.",
+          "ar": "إعداد الخريجين بمهارات عقلية وعملية عالية في مجال علوم الحاسوب من خلال تزويدهم بأحدث المعارف والمهارات المتقدمة والقيم الأخلاقية العالية لخدمة المجتمع."
+        },
+        {
+          "HTMLID": "Program_Vision",
+          "en": "Program Vision",
+          "ar": "رؤية البرنامج"
+        },
+        {
+          "HTMLID": "Program_Vision_Text",
+          "en": "Providing a distinguished academic program in the field of computer science to advance college graduates to a level capable of competing and keeping pace with rapid technological changes.",
+          "ar": "تقديم برنامج أكاديمي متميز في مجال علوم الحاسوب لرفع خريجي الكلية إلى مستوى قادر على المنافسة ومواكبة التغيرات التكنولوجية السريعة."
+        },
+        {
+          "HTMLID": "Program_Goals",
+          "en": "Program Goals",
+          "ar": "أهداف البرنامج"
+        },
+        {
+          "HTMLID": "Program_Goals_Text",
+          "en": "<p class=\"fw-bold\">● Preparing graduates equipped with theoretical and practical knowledge of the basics of computer science that will enable them to compete academically and practically.</p> <p class=\"fw-bold\">● The ability to communicate with others clearly and effectively using technical concepts.</p> <p class=\"fw-bold\">● Training students to apply acquired knowledge and skills to solve problems that serve society </p> <p class=\"fw-bold\">● Ability to work with others from other disciplines</p> <p class=\"fw-bold\">● Appropriate development of academic curricula, including the integration of rapid changes in computer science.</p> <p class=\"fw-bold\">● Organizing seminars and holding scientific courses with the aim of raising the scientific and research level among graduates.</p> <p class=\"fw-bold\">● Meeting society’s need with competencies trained to use computer technology in various areas of life</p>",
+          "ar": "<p class=\"fw-bold\">● إعداد الخريجين المجهزين بالمعرفة النظرية والعملية لأساسيات علوم الحاسوب التي ستمكنهم من المنافسة أكاديمياً وعملياً.</p> <p class=\"fw-bold\">● القدرة على التواصل مع الآخرين بوضوح وفعالية باستخدام المفاهيم التقنية.</p> <p class=\"fw-bold\">● تدريب الطلاب على تطبيق المعرفة والمهارات المكتسبة لحل المشكلات التي تخدم المجتمع</p> <p class=\"fw-bold\">● القدرة على العمل مع الآخرين من تخصصات أخرى</p> <p class=\"fw-bold\">● تطوير مناسب للمناهج الأكاديمية، بما في ذلك دمج التغيرات السريعة في علوم الحاسوب.</p> <p class=\"fw-bold\">● تنظيم الندوات وعقد الدورات العلمية بهدف رفع المستوى العلمي والبحثي بين الخريجين.</p> <p class=\"fw-bold\">● تلبية احتياجات المجتمع بكفاءات مدربة على استخدام تكنولوجيا الحاسوب في مختلف مجالات الحياة</p>"
+        },
+
+        {
+          "HTMLID": "IS_Program_Message",
+          "en": "Program Message",
+          "ar": "رسالة البرنامج"
+        },
+        {
+          "HTMLID": "IS_Program_Message_Text",
+          "en": "The program seeks to raise the employment rate of its graduates by providingthem withpracticaland scientific competencies and skills in the field of management information systems andbusiness technology to support development towards the knowledge economy and informationsocietyby establishing partnerships with the business sector and giving greater attention to theapplied aspect of information systems in the business sector.",
+          "ar": "يسعى البرنامج إلى رفع معدل التوظيف لخريجيه من خلال تزويدهم بالكفاءات والمهارات العملية والعلمية في مجال نظم المعلومات الإدارية وتكنولوجيا الأعمال لدعم التنمية نحو الاقتصاد المعرفي والمجتمع المعلوماتي من خلال إقامة شراكات مع القطاع الأعمال وإيلاء اهتمام أكبر للجانب التطبيقي لنظم المعلومات في القطاع الأعمال."
+        },
+        {
+          "HTMLID": "IS_Program_Vision",
+          "en": "Program Vision",
+          "ar": "رؤية البرنامج"
+        },
+        {
+          "HTMLID": "IS_Program_Vision_Text",
+          "en": "We seek excellence and leadership scientifically and practically in a social                             educational                             environment open to the future in the field of information systems to advance the college                             graduate to a level capable of competing.",
+          "ar": "نسعى للتميز والقيادة علمياً وعملياً في بيئة تربوية اجتماعية مفتوحة على المستقبل في مجال نظم المعلومات لرفع خريج الكلية إلى مستوى قادر على المنافسة."
+        },
+        {
+          "HTMLID": "IS_Program_Goals",
+          "en": "Program Goals",
+          "ar": "أهداف البرنامج"
+        },
+        {
+          "HTMLID": "IS_Program_Goals_Text",
+          "en": "<p class=\"fw-bold\">● Providing high-quality education in information systems for students in a waythat suits theirdiverse interests and professional expectations and matches the needs of the labor market.</p><p class=\"fw-bold\">● Prepare students to apply their knowledge in the field of work usingproblem-solving tools andtechniques.</p><p class=\"fw-bold\">● Preparing students for lifelong learning by giving them the knowledge andskills necessary forscientific research and decision-making.</p><p class=\"fw-bold\">● Increase cooperation with the business sector, which enriches the scientificand applied skillsof graduates and helps them find job opportunities after graduation.</p><p class=\"fw-bold\">● Commitment to high professionalism and continuous improvement in the teachingand learningprocess in accordance with the quality guidelines followed at the university.</p><p class=\"fw-bold\">● Building partnerships and communicating with organizations in the public andprivate sectorsto understand problems related to informatics to provide creative solutions based on soundscientific and cognitive foundations.</p><p class=\"fw-bold\">● Ensuring the department’s academic excellence by focusing on scholarships fordistinguished andqualified students, providing and updating scientific sources such as books, scientificjournals, and databases, and enhancing the scientific capabilities of faculty members byencouraging them to participate in conferences, workshops, and seminars.</p>",
+          "ar": "<p class=\"fw-bold\">● تقديم تعليم عالي الجودة في نظم المعلومات للطلاب بطريقة تتناسب مع اهتماماتهم المتنوعة وتوقعاتهم المهنية وتتناسب مع احتياجات سوق العمل.</p><p class=\"fw-bold\">● إعداد الطلاب لتطبيق معرفتهم في مجال العمل باستخدام أدوات وتقنيات حل المشكلات.</p><p class=\"fw-bold\">● إعداد الطلاب للتعلم مدى الحياة من خلال منحهم المعرفة والمهارات اللازمة للبحث العلمي واتخاذ القرارات.</p><p class=\"fw-bold\">● زيادة التعاون مع القطاع الأعمال، الذي يثري المهارات العلمية والتطبيقية للخريجين ويساعدهم على العثور على فرص عمل بعد التخرج.</p><p class=\"fw-bold\">● الالتزام بالاحترافية العالية والتحسين المستمر في عملية التعليم والتعلم وفقًا للمبادئ الجودة المتبعة في الجامعة.</p><p class=\"fw-bold\">● بناء الشراكات والتواصل مع المنظمات في القطاعين العام والخاص لفهم المشكلات المتعلقة بالمعلوماتية لتقديم حلول إبداعية"
+        }
+      ]
+    },
+    {
+      "name": "Special",
+      "components": [
+        {
+          "HTMLID": "SE_Program_Message",
+          "en": "Program Message",
+          "ar": "رسالة البرنامج"
+        },
+        {
+          "HTMLID": "SE_Program_Message_Text",
+          "en": "The program seeks to raise the employment rate of its graduates by providing them with practical and scientific competencies and skills in the field of software engineering and business technology to support development towards the knowledge economy and information society by establishing partnerships with the business sector and giving greater attention to the applied aspect of information systems in the business sector.",
+          "ar": "يسعى البرنامج إلى رفع معدل التوظيف لخريجيه من خلال تزويدهم بالكفاءات والمهارات العملية والعلمية في مجال هندسة البرمجيات وتكنولوجيا الأعمال لدعم التنمية نحو الاقتصاد المعرفي والمجتمع المعلوماتي من خلال إقامة شراكات مع القطاع الأعمال وإيلاء اهتمام أكبر للجانب التطبيقي لنظم المعلومات في القطاع الأعمال."
+        },
+        {
+          "HTMLID": "SE_Program_Vision",
+          "en": "Program Vision",
+          "ar": "رؤية البرنامج"
+        },
+        {
+          "HTMLID": "SE_Program_Vision_Text",
+          "en": "We seek excellence and leadership scientifically and practically in a social educational environment open to the future in the field of software engineering to advance the college graduate to a level capable of competing.",
+          "ar": "نسعى للتميز والقيادة علمياً وعملياً في بيئة تربوية اجتماعية مفتوحة على المستقبل في مجال هندسة البرمجيات لرفع خريج الكلية إلى مستوى قادر على المنافسة."
+        },
+        {
+          "HTMLID": "SE_Program_Goals",
+          "en": "Program Goals",
+          "ar": "أهداف البرنامج"
+        },
+        {
+          "HTMLID": "SE_Program_Goals_Text",
+          "en": "<p class=\"fw-bold\">● Providing high-quality education in software engineering for students in a way that suits their diverse interests and professional expectations and matches the needs of the labor market.</p><p class=\"fw-bold\">● Prepare students to apply their knowledge in the field of work using problem-solving tools and techniques.</p><p class=\"fw-bold\">● Preparing students for lifelong learning by giving them the knowledge and skills necessary for scientific research and decision-making.</p><p class=\"fw-bold\">● Increase cooperation with the business sector, which enriches the scientific and applied skills of graduates and helps them find job opportunities after graduation.</p><p class=\"fw-bold\">● Commitment to high professionalism and continuous improvement in the teaching and learning process in accordance with the quality guidelines followed at the university.</p><p class=\"fw-bold\">● Building partnerships and communicating with organizations in the public and private sectors to understand problems related to informatics to provide creative solutions based on sound scientific and cognitive foundations.</p><p class=\"fw-bold\">● Ensuring the department’s academic excellence by focusing on scholarships for distinguished and qualified students, providing and updating scientific sources such as books, scientific journals, and databases, and enhancing the scientific capabilities of faculty members by encouraging them to participate in conferences, workshops, and seminars.</p>",
+
+          "ar": "<p class=\"fw-bold\">● تقديم تعليم عالي الجودة في هندسة البرمجيات للطلاب بطريقة تتناسب مع اهتماماتهم المتنوعة وتوقعاتهم المهنية وتتناسب مع احتياجات سوق العمل.</p><p class=\"fw-bold\">● إعداد الطلاب لتطبيق معرفتهم في مجال العمل باستخدام أدوات وتقنيات حل المشكلات.</p><p class=\"fw-bold\">● إعداد الطلاب للتعلم مدى الحياة من خلال منحهم المعرفة"
+        },
+        {
+          "HTMLID": "Bio_Program_Message",
+          "en": "Program Message",
+          "ar": "رسالة البرنامج"
+        },
+        {
+          "HTMLID": "Bio_Program_Message_Text",
+          "en": "The program seeks to raise the employment rate of its graduates by providing them with practical and scientific competencies and skills in the field of bioinformatics and business technology to support development towards the knowledge economy and information society by establishing partnerships with the business sector and giving greater attention to the applied aspect of information systems in the business sector.",
+          "ar": "يسعى البرنامج إلى رفع معدل التوظيف لخريجيه من خلال تزويدهم بالكفاءات والمهارات العملية والعلمية في مجال المعلومات الحيوية وتكنولوجيا الأعمال لدعم التنمية نحو الاقتصاد المعرفي والمجتمع المعلوماتي من خلال إقامة شراكات مع القطاع الأعمال وإيلاء اهتمام أكبر للجانب التطبيقي لنظم المعلومات في القطاع الأعمال."
+        },
+        {
+          "HTMLID": "Bio_Program_Vision",
+          "en": "Program Vision",
+          "ar": "رؤية البرنامج"
+        },
+        {
+          "HTMLID": "Bio_Program_Vision_Text",
+          "en": "We seek excellence and leadership scientifically and practically in a social educational environment open to the future in the field of bioinformatics to advance the college graduate to a level capable of competing.",
+          "ar": "نسعى للتميز والقيادة علمياً وعملياً في بيئة تربوية اجتماعية مفتوحة على المستقبل في مجال المعلومات الحيوية لرفع خريج الكلية إلى مستوى قادر على المنافسة."
+        },
+        {
+          "HTMLID": "Bio_Program_Goals",
+          "en": "Program Goals",
+          "ar": "أهداف البرنامج"
+        },
+        {
+          "HTMLID": "Bio_Program_Goals_Text",
+          "en": "<p class=\"fw-bold\">● Providing high-quality education in bioinformatics for students in a way that suits their diverse interests and professional expectations and matches the needs of the labor market.</p><p class=\"fw-bold\">● Prepare students to apply their knowledge in the field of work using problem-solving tools and techniques.</p><p class=\"fw-bold\">● Preparing students for lifelong learning by giving them the knowledge and skills necessary for scientific research and decision-making.</p><p class=\"fw-bold\">● Increase cooperation with the business sector, which enriches the scientific and applied skills of graduates and helps them find job opportunities after graduation.</p><p class=\"fw-bold\">● Commitment to high professionalism and continuous improvement in the teaching and learning process in accordance with the quality guidelines followed at the university.</p><p class=\"fw-bold\">● Building partnerships and communicating with organizations in the public and private sectors to understand problems related to informatics to provide creative solutions based on sound scientific and cognitive foundations.</p><p class=\"fw-bold\">● Ensuring the department’s academic excellence by focusing on scholarships for distinguished and qualified students, providing and updating scientific sources such as books, scientific journals, and databases, and enhancing the scientific capabilities of faculty members by encouraging them to participate in conferences, workshops, and seminars.</p>",
+          "ar": "<p class=\"fw-bold\">● تقديم تعليم عالي الجودة في المعلومات الحيوية للطلاب بطريقة تتناسب مع اهتماماتهم المتنوعة وتوقعاتهم المهنية وتتناسب مع احتياجات سوق العمل.</p><p class=\"fw-bold\">● إعداد الطلاب لتطبيق معرفتهم في مجال العمل باستخدام أدوات وتقنيات حل المشكلات.</p><p class=\"fw-bold\">● إعداد الطلاب للتعلم مدى الحياة من خلال منحهم المعرفة والمهارات اللازمة للبحث العلمي واتخاذ القرارات.</p><p class=\"fw-bold\">● زيادة التعاون مع القطاع الأعمال، الذي يثري المهارات العلمية والتطبيقية للخريجين ويساعدهم على العثور على فرص عمل بعد التخرج.</p><p class=\"fw-bold\">● الالتزام بالاحترافية العالية والتحسين المستمر في عملية التعليم والتعلم وفقًا للمبادئ الجودة المتبعة في الجامعة.</p><p class=\"fw-bold\">● بناء الشراكات والتواصل مع المنظمات في القطاعين العام والخاص لفهم المشكلات المتعلقة بالمعلوماتية لتقديم حلول إبداعية"
+        },
+        {
+          "HTMLID": "AI_Program_Message",
+          "en": "Program Message",
+          "ar": "رسالة البرنامج"
+        },
+        {
+          "HTMLID": "AI_Program_Message_Text",
+          "en": "The program seeks to raise the employment rate of its graduates by providing them with practical and scientific competencies and skills in the field of artificial intelligence and business technology to support development towards the knowledge economy and information society by establishing partnerships with the business sector and giving greater attention to the applied aspect of information systems in the business sector.",
+          "ar": "يسعى البرنامج إلى رفع معدل التوظيف لخريجيه من خلال تزويدهم بالكفاءات والمهارات العملية والعلمية في مجال الذكاء الاصطناعي وتكنولوجيا الأعمال لدعم التنمية نحو الاقتصاد المعرفي والمجتمع المعلوماتي من خلال إقامة شراكات مع القطاع الأعمال وإيلاء اهتمام أكبر للجانب التطبيقي لنظم المعلومات في القطاع الأعمال."
+        },
+        {
+          "HTMLID": "AI_Program_Vision",
+          "en": "Program Vision",
+          "ar": "رؤية البرنامج"
+        },
+        {
+          "HTMLID": "AI_Program_Vision_Text",
+          "en": "We seek excellence and leadership scientifically and practically in a social educational environment open to the future in the field of artificial intelligence to advance the college graduate to a level capable of competing.",
+          "ar": "نسعى للتميز والقيادة علمياً وعملياً في بيئة تربوية اجتماعية مفتوحة على المستقبل في مجال الذكاء الاصطناعي لرفع خريج الكلية إلى مستوى قادر على المنافسة."
+        },
+        {
+          "HTMLID": "AI_Program_Goals",
+          "en": "Program Goals",
+          "ar": "أهداف البرنامج"
+        },
+        {
+          "HTMLID": "AI_Program_Goals_Text",
+          "en": "<p class=\"fw-bold\">● Providing high-quality education in artificial intelligence for students in a way that suits their diverse interests and professional expectations and matches the needs of the labor market.</p><p class=\"fw-bold\">● Prepare students to apply their knowledge in the field of work using problem-solving tools and techniques.</p><p class=\"fw-bold\">● Preparing students for lifelong learning by giving them the knowledge and skills necessary for scientific research and decision-making.</p><p class=\"fw-bold\">● Increase cooperation with the business sector, which enriches the scientific and applied skills of graduates and helps them find job opportunities after graduation.</p><p class=\"fw-bold\">● Commitment to high professionalism and continuous improvement in the teaching and learning process in accordance with the quality guidelines followed at the university.</p><p class=\"fw-bold\">● Building partnerships and communicating with organizations in the public and private sectors to understand problems related to informatics to provide creative solutions based on sound scientific and cognitive foundations.</p><p class=\"fw-bold\">● Ensuring the department’s academic excellence by focusing on scholarships for distinguished and qualified students, providing and updating scientific sources such as books, scientific journals, and databases, and enhancing the scientific capabilities of faculty members by encouraging them to participate in conferences, workshops, and seminars.</p>",
+          "ar": "<p class=\"fw-bold\">● تقديم تعليم عالي الجودة في الذكاء الاصطناعي للطلاب بطريقة تتناسب مع اهتماماتهم المتنوعة وتوقعاتهم المهنية وتتناسب مع احتياجات سوق العمل.</p><p class=\"fw-bold\">● إعداد الطلاب لتطبيق معرفتهم في مجال العمل باستخدام أدوات وتقنيات حل المشكلات.</p><p class=\"fw-bold\">● إعداد الطلاب للتعلم مدى الحياة من خلال منحهم المعرفة والمهارات اللازمة للبحث العلمي واتخاذ القرارات.</p><p class=\"fw-bold\">● زيادة التعاون مع القطاع الأعمال، الذي يثري المهارات العلمية والتطبيقية للخريجين ويساعدهم على العثور على فرص عمل بعد التخرج.</p><p class=\"fw-bold\">● الالتزام بالاحترافية العالية والتحسين المستمر في عملية التعليم والتعلم وفقًا للمبادئ الجودة المتبعة في الجامعة.</p><p class=\"fw-bold\">● بناء الشراكات والتواصل مع المنظمات في القطاعين العام والخاص لفهم المشكلات المتعلقة بالمعلوماتية لتقديم حلول إبداعية"
+        }
+      ]
+    }
+  ]
+}
