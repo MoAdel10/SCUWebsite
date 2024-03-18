@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
   res.sendFile(join(__dirname, "public", "index.html"));
 });
 
-app.get("/acts", (req, res) => {
+app.get("/activites", (req, res) => {
   res.sendFile(join(__dirname, "public", "activites.html"));
 });
 
